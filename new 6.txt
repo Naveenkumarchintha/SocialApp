@@ -1,0 +1,16 @@
+domain: https://naveenkumar09.pythonanywhere.com/
+api endpoints:
+---------
+admin/
+admin/
+api/register/ [name='register']
+api/login/ [name='login']
+api/users/ [name='user-list']
+api/users/<int:pk>/ [name='user-detail']
+api/posts/ [name='post-list']
+api/posts/<int:pk>/ [name='post-detail']
+api/comments/ [name='comment-list']
+api/comments/<int:pk>/ [name='comment-detail']
+api/posts/search/ [name='post-search']
+api/posts/<int:pk>/info/ [name='post-info']
+api/follow/ [name='follow']
